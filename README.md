@@ -1,0 +1,40 @@
+# Idkmng.nvim
+A Neovim plugin for [idkmng](https://github.com/0xr00t3d/idkmng).
+
+Making it even better and easier by initializing projects inside Neovim.
+
+## Installation
+Make sure you have [idkmng](https://github.com/0xr00t3d/idkmng) installed on your machine.  <!--TODO autoinstall idkmng-->
+using [packer.nvim](https://github.com/wbthomason/packer.nvim) 
+
+```lua
+use {"0xr00t3d/idkmng.nvim",
+    requires={"nvim-telescope/telescope.nvim"}
+}
+```
+Then run :
+```
+:PackerInstall
+```
+
+now you should be able to run `:Idkmng`
+
+## Configuration
+See `:help idkmng`
+
+Right now idkmng.nvim only takes the theme of Telescope picker, more information can be found [here](https://github.com/nvim-telescope/telescope.nvim#themes) 
+Example:
+
+```lua
+require("idkmng").setup({
+    --default telescope theme
+    theme = require("telescope.themes").get_dropdown {} -- https://github.com/nvim-telescope/telescope.nvim#themes 
+})
+```
+
+### Mappings
+To use idkmng.nvim you can run `:Idkmng` in neovim,to create a key binding 
+
+```lua
+vim.keymap.set("n", "<leader>i",":Idkmng<CR>")
+```
