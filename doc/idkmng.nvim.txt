@@ -9,8 +9,14 @@ configuration is quite simple and easy, it only takes one argument which is tele
 Example: 
 
 require("idkmng").setup({
-    --default telescope theme
+    --telescope theme
     theme = require("telescope.themes").get_dropdown {} -- https://github.com/nvim-telescope/telescope.nvim#themes 
+})
+
+you can leave `theme` empty to use telescope's defualt theme
+
+require("idkmng").setup({
+    theme = {}
 })
 
 vim:tw=78:ts=8:ft=help:norl:
