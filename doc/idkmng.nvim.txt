@@ -1,6 +1,6 @@
 ===========================================================================================================
                                                                  *idkmng*
-This plugin helps you with Initializing your projects easily by using idkmng (https://www.github.com/0xr00t3d/idkmng)
+This plugin helps you with Initializing your projects easily by using idkmng (https://www.github.com/pwnxpl0it/idkmng)
 it just needs idkmng installed on your machine.
 
                                                               *idkmng.setup()*

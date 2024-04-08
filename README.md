@@ -1,14 +1,14 @@
 # Idkmng.nvim
-A Neovim plugin for [idkmng](https://github.com/0xr00t3d/idkmng).
+A Neovim plugin for [idkmng](https://github.com/pwnxpl0it/idkmng).
 
 Making it even better and easier by initializing projects inside Neovim.
 
 ## Installation
-Make sure you have [idkmng](https://github.com/0xr00t3d/idkmng) installed on your machine.  <!--TODO autoinstall idkmng-->
+Make sure you have [idkmng](https://github.com/pwnxpl0it/idkmng) installed on your machine.  <!--TODO autoinstall idkmng-->
 using [packer.nvim](https://github.com/wbthomason/packer.nvim) 
 
 ```lua
-use {"0xr00t3d/idkmng.nvim",
+use {"pwnxpl0it/idkmng.nvim",
     requires={"nvim-telescope/telescope.nvim"}
 }
 ```
