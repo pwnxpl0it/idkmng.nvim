@@ -5,6 +5,18 @@ Making it even better and easier by initializing projects inside Neovim.
 
 ## Installation
 Make sure you have [idkmng](https://github.com/pwnxpl0it/idkmng) installed on your machine.  <!--TODO autoinstall idkmng-->
+<br>
+
+Using [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{ "pwnxpl0it/idkmng.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim" },
+}
+```
+
+<br>
+
 using [packer.nvim](https://github.com/wbthomason/packer.nvim) 
 
 ```lua
